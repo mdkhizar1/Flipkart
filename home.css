@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f2f4;
+}
+
+section {
+    width: 95%;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* section-1 */
+#categories {
+    height: 13vh;
+}
+
+/* section-2 */
+#hero {
+    height: 85vh;
+}
+
+/* section-3,4,5 */
+#Category-1,
+#Category-2,
+#Category-3 {
+    height: 40vh;
+}
+
+/* Section-1 */
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    /* center the grid block  */
+}
+
+#categories .container div {
+    text-align: center;
+}
+
+#categories .container img {
+    width: 65px;
+    height: 65px;
+}
+
+#categories .container h4 {
+    margin: 0;
+    font-size: medium;
+}
+
+/* Section-2 */
+#hero .container {
+    width: 80%;
+    height: 95%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#g-item1 {
+    grid-column: 1/ 3;
+    grid-row: 1/ 4;
+    background-image: url("https://noraandkatie.com/cdn/shop/collections/image_c0fbdbe0-2231-4487-988a-7b31aec3439e_1500x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#g-item2 {
+    background-color: blanchedalmond;
+    grid-column: 3/ 4;
+    grid-row: 1/ 2;
+    background-image: url("https://successmenswear.com/cdn/shop/files/01_1500x.png?v=1726742354");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#g-item3 {
+    background-color: blanchedalmond;
+    grid-column: 3/ 4;
+    grid-row: 2/ 3;
+    background-image: url("https://www.shutterstock.com/image-photo/trendy-beautiful-young-asian-woman-600nw-1590685858.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#g-item4 {
+    background-color: blanchedalmond;
+    grid-column: 3/ 4;
+    grid-row: 3/ 4;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221013/pngtree-nike-sneakers-showcased-in-tyumen-store-leather-product-nike-shoes-photo-image_49118888.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#g-item1 img {
+    height: auto;
+}
+
+
+/* section-3 */
+
+.category-container {
+    height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.category-container div img {
+    height: 50%;
+    /* Sets height of all images = 50% of div    */
+    width: auto;
+}
+
+.category-container div p,
+h4 {
+    margin: 0;
+    margin-top: 5px;
+}
