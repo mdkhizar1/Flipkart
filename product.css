@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    /* remove margins later */
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.product-details-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+}
+
+.main-product-img {
+    background-color: #1E1E1E;
+}
+
+.product-info {
+    background-color: #1E1E1E;
+    display: grid;
+    grid-template-rows: 12% 12% 50% 12% 14%;
+    padding: 20px;
+}
+
+.product-content-grid-columns {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+dl {
+    margin: 0;
+}
+
+.label {
+    color: #FFD54F;
+    font-size: 16px;
+}
+
+.text-color {
+    color: #E0E0E0;
+}
+
+.align-middle {
+    display: flex;
+    align-items: center;
+}
+
+
+.button-section {
+    gap: 20px;
+}
+
+button {
+    height: 30px;
+    width: auto;
+    border: 0;
+    border-radius: 5px;
+}
+
+.product-images-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 300px;
+}
+
+.product-images-grid {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.prod-img {
+    background-color: white;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#prod-img1 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/v/8/s/-original-imah4jz6gzzmpe8k.jpeg?q=70&crop=false");
+}
+
+#prod-img2 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/3/n/c/-original-imah4jywzxzwkq6g.jpeg?q=70&crop=false");
+}
+
+#prod-img3 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/e/d/h/-original-imah4jywf7mnadye.jpeg?q=70&crop=false");
+}
+
+#prod-img4 {
+    background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/m/9/1/-original-imah4jywasgcqcqz.jpeg?q=70&crop=false");
+}
